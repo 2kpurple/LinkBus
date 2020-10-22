@@ -1,3 +1,4 @@
+include ':ipc-messager'
 include ':linkbus'
 include ':app'
 rootProject.name = "LinkBus"

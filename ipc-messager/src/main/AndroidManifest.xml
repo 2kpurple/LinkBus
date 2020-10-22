@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.purplek.linkbus.ipc">
+
+    <application>
+        <service
+            android:name="com.purplek.linkbus.ipc.LinkBusService"
+            android:process=":linkbus"/>
+    </application>
+</manifest>
